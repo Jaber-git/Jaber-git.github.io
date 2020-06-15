@@ -1,0 +1,179 @@
+*{
+margin:0px;
+padding:0px;
+}
+body {
+	overflow-x: hidden;
+	
+  }
+
+/**navbar**/
+ #header{
+	 height: 70px;
+ }
+ .navbar { padding-bottom:5px;
+ }
+ #menu  .navbar-nav{
+	 margin-bottom: 5px;
+ }
+.nav-item{
+	padding-right:10px ;
+}
+.nav-link{
+	text-decoration: none;
+	
+}
+.nav-item:hover .nav-link{
+	color:#00C1B2 !important ;
+	margin:0px;
+	padding: 0px;
+}
+ .nav-item:hover  .title-1::after{
+	content: "  ";
+	background-color:#00C1B2 ;
+    display:block; /* So we can set a width */
+	width: 30px;
+	height:3px;
+
+	
+}
+/**banner**/
+#banner-sec{
+	height: 400px;
+	background-image:url(banner.jpg);
+	background-repeat: no-repeat;
+	background-color:#6EB6DC;
+	margin-top: 5px;
+	
+	
+	
+}
+.pricing{
+	padding-left:0px;
+
+}
+.title::after{
+	content: "  ";
+	background-color:#00C1B2 ;
+    display:block; /* So we can set a width */
+	width: 30px;
+	height:5px;
+    margin-top:15px;
+    
+  }
+
+.header-container{
+	padding-top:100px;
+	
+	text-align:center;
+	
+	
+}
+#banner-sec h1{
+	padding:30px 30px;
+	font-size:3em;
+	font-style:bold;
+	
+  }
+  /**header-2**/
+ #header-2 {
+height: 225px;
+   padding-top:70px;
+}
+ .header-title h3{
+	margin:0px 0 0 30px ;
+
+	
+ } 
+ 
+/*services*/
+
+
+.services{
+	
+	width:210px;
+	height:425px;
+	
+}
+.services h3{
+	padding:5px;
+	margin-top:20px;
+	text-transform:uppercase;
+	
+}
+.card-img-1 {
+
+ background-image: url("img/card-4.jpg");
+ height:150px ; 
+ width:100% ; 
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.card-img-2 {
+
+	background-image: url("img/card-1.jpg");
+	height:150px ; 
+	width:100% ; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 60px;
+
+   }
+   card-img-top> h4, .card-img-para {
+	  
+	   color:white;
+   }
+   
+
+.card-img-3 {
+	
+	background-image: url("img/card-2.jpg");
+	height:150px ; 
+	width:100% ; 
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.card-img-4 {
+	
+	background-image: url("img/card-3.jpg");
+	height:150px ; 
+	width:100% ; 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card{
+	transition:1s ;
+}
+.card:hover{
+	background-color:#EBEAEF;
+	transform:translateY(-5px);
+}
+.card-footer > .btn-hov{
+	border: none;
+}
+.card-footer > .btn-hov:hover {
+	background-color:#00C1B2 ;
+}
+
+#sec-3{
+height: 150px;
+padding:50px;
+}
+/*footer*/
+.foot{
+	padding:20px;
+}
+.foot h1,h3,p{
+	font:white;
+}
+.icons {
+	color:white;
+	padding-left: 10px;
+	width:30px;
+	height: 30px;
+	
+	border-radius: 15px;
+	text-decoration: none;
+}
